@@ -1,0 +1,23 @@
+{
+    // 使用 IntelliSense 以得知可用的屬性。
+    // 暫留以檢視現有屬性的描述。
+    // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch via NPM",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script",
+                "debug"
+            ],
+            "port":9229,
+            "env": {
+                "CHANNEL_ACCESS_TOKEN":"0qKgZBy1iaO/3HeYxjSVdNIvzfzkzTPHTBcUn7uRAvWZa4yA1XSRMRzulKb09C0ZPqBQYrgGM05vUK57ToAv0pN4O6UVms0IF0N3t7cIjbgjAPcobNxHSJIWNMKliq73Iwij8XINJrfc+cJ0V6tJ6wdB04t89/1O/w1cDnyilFU=",
+                "CHANNEL_SECRET":"d5fdfd126ee88cb4b75fa59e6b5d91bb"
+            }
+        }
+    ]
+}
