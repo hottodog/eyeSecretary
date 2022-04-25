@@ -1,0 +1,14 @@
+//-繼承layout.pug模板
+extends layout
+
+//-取代layout.pug模板中block content內容
+block content
+  .container
+    .row  
+      .col-md-4.offset-md-4
+        .area.mx-auto.text-center
+          h4.py-2 提醒事項
+          p 登入後可以預約需提醒之事項的推播時間
+          a.btn.btn-outline-primary.btn-md(href='/auth/notify') 登入            
+          if ErrMsg 
+            .alert.alert-danger= ErrMsg
